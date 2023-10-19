@@ -22,7 +22,6 @@ import DBImg from "../../images/home/database.png"
 import RSImg from "../../images/home/research-service.png"
 import SWImg from "../../images/home/syllabus-workshop.png"
 
-
 function Home() {
   const navigate = useNavigate();
 
