@@ -21,10 +21,10 @@ function Database() {
         setLoading(true);
         const res = await axios.get(url);
         res.data.map((item) => {
-            if (item.Category !== ""){
+            if (item["Category"] && item["Category"] !== ""){
                 item.Category = item.Category.split("; ")
             }
-            if (item.Continent !== ""){
+            if (item["Continent"] && item["Continent"] !== ""){
                 item.Continent = item.Continent.split(", ")
             }
         })
