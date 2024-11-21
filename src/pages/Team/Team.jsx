@@ -21,7 +21,7 @@ import Divya from '../../images/team/divya.png'
 import Jenna from '../../images/team/jenna.png'
 import Kayley from '../../images/team/kayley.png'
 import Sophia from '../../images/team/sophia.png'
-import Bianca from '../../images/team/bianca.png'
+// import Bianca from '../../images/team/bianca.png'
 import Spencer from '../../images/team/spencer.png'
 import Rashida from '../../images/team/rashida.png'
 import Polina from '../../images/team/polina.png'
@@ -122,7 +122,7 @@ function Team() {
 						name='Kayley Chery'
 						role='Research Specialist & Backend Developer'
 						email='kac7748@nyu.edu'
-						bio='♡ '
+						bio='Kayley Chery is a proud member of the IMA Class 2026! You can often find her on the IMA/ITP Floor laser cutting, 3D printing, playing my bass guitar, or coding something. She has a passion for the intersections of art, tech, equity & education, and starting in freshman year, she’s been one of the lead student researchers at ESP.'
 					/>
 				</div>
 			</div>
