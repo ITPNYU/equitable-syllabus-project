@@ -8,28 +8,29 @@ import DivyaAvatar from '../../images/team/divya-avatar.png'
 import JennaAvatar from '../../images/team/jenna-avatar.png'
 import KayleyAvatar from '../../images/team/kayley-avatar.png'
 import SophiaAvatar from '../../images/team/sophia-avatar.png'
-import BiancaAvatar from '../../images/team/bianca-avatar.png'
-// import AudreyAvatar from '../../images/team/audrey-avatar.png'
-// import LiyanAvatar from '../../images/team/liyan-avatar.png'
-// import MelikaAvatar from '../../images/team/melika-avatar.png'
-// import SophiaCollanderAvatar from '../../images/team/sophia-collander-avatar.png'
-// import YafiraAvatar from '../../images/team/yafira-avatar.png'
+// import BiancaAvatar from '../../images/team/bianca-avatar.png'
+// TODO: avatar for current and new members
 
 import Blair from '../../images/team/blair.png'
-import Chaski from '../../images/team/chaski.png'
-import Divya from '../../images/team/divya.png'
-import Jenna from '../../images/team/jenna.png'
 import Kayley from '../../images/team/kayley.png'
-import Sophia from '../../images/team/sophia.png'
-// import Bianca from '../../images/team/bianca.png'
-import Spencer from '../../images/team/spencer.png'
-import Rashida from '../../images/team/rashida.png'
-import Polina from '../../images/team/polina.png'
-import Audrey from '../../images/team/audrey.png'
+import Neeti from '../../images/team/neeti.png'
+import Apoorva from '../../images/team/apoorva.png'
+
 import Liyan from '../../images/team/liyan.png'
 import Melika from '../../images/team/melika.png'
+import Audrey from '../../images/team/audrey.png'
 import SophiaCollander from '../../images/team/sophiac.png'
 import Yafira from '../../images/team/yafira.png'
+
+// Alumni
+import Rashida from '../../images/team/rashida.png'
+import Chaski from '../../images/team/chaski.png'
+import Divya from '../../images/team/divya.png'
+import Sophia from '../../images/team/sophia.png'
+import Jenna from '../../images/team/jenna.png'
+// import Bianca from '../../images/team/bianca.png'
+import Spencer from '../../images/team/spencer.png'
+import Polina from '../../images/team/polina.png'
 
 function Team() {
 	return (
@@ -51,24 +52,7 @@ function Team() {
 					/>
 					<img className='team__avatar' src={KayleyAvatar} alt='Kayley Chery' />
 					<img className='team__avatar' src={JennaAvatar} alt='Jenna Han' />
-					<img className='team__avatar' src={BiancaAvatar} alt='Bianca Gan' />
-					{/* <img className='team__avatar' src={AudreyAvatar} alt='Audrey Oh' />
-					<img className='team__avatar' src={LiyanAvatar} alt='Liyan Ibrahim' />
-					<img
-						className='team__avatar'
-						src={MelikaAvatar}
-						alt='Melika Panbehchi'
-					/>
-					<img
-						className='team__avatar'
-						src={SophiaCollanderAvatar}
-						alt='Sophia Collander'
-					/>
-					<img
-						className='team__avatar'
-						src={YafiraAvatar}
-						alt='Yafira Martinez'
-					/> */}
+					{/* <img className='team__avatar' src={BiancaAvatar} alt='Bianca Gan' /> */}
 				</div>
 			</div>
 			<div className='section'>
@@ -77,7 +61,7 @@ function Team() {
 					<TeamCard
 						image={Blair}
 						name='Blair Simmons'
-						role='Project Manager'
+						role='Faculty Director'
 						email='blair.simmons@nyu.edu'
 						bio='♡'
 					/>
@@ -122,7 +106,21 @@ function Team() {
 						name='Kayley Chery'
 						role='Research Specialist & Backend Developer'
 						email='kac7748@nyu.edu'
-						bio='Kayley Chery is a proud member of the IMA Class 2026! You can often find her on the IMA/ITP Floor laser cutting, 3D printing, playing my bass guitar, or coding something. She has a passion for the intersections of art, tech, equity & education, and starting in freshman year, she’s been one of the lead student researchers at ESP.'
+						bio={`Kayley Chery is a proud member of the IMA Class 2026! You can often find her on the IMA/ITP Floor laser cutting, 3D printing, playing my bass guitar, or coding something. She has a passion for the intersections of art, tech, equity & education, and starting in freshman year, she’s been one of the lead student researchers at ESP.`}
+					/>
+					<TeamCard
+						image={Neeti}
+						name='Neeti Sivakumar'
+						role='☆ role ☆'
+						email='ns5412@nyu.edu'
+						bio={`Neeti Sivakumar is a multidisciplinary designer and researcher based in Brooklyn, New York. She works at the intersection of sociology of space and technology. Her practice focuses on the _production of space_ and what it means for marginalized communities to occupy space visibly. She believes in a participatory approach to reflect and critique structures of inequality and access.\n\nWith a master’s in interactive media from NYU and a bachelor’s in architecture, she works with a variety of mediums including architecture drawings, crafted spaces, audio/video, and, emerging technology like AR/VR, generative AI, and motion capture. She has received grants from the Goethe-Institut Mumbai, ZKM, Karlsruhe, and BeFantastic Bangalore, and was a part of NYU’s HEAR US (Honoring, Elevating, and Recapitalizing Underrepresented Stories) cohort in 2024.\n\nCurrently, she is a research resident at NYU and works at Berkman Klein Center at Harvard Law School.`}
+					/>
+					<TeamCard
+						image={Apoorva}
+						name='Apoorva Avadhana'
+						role='☆ role ☆'
+						email='aa10234@nyu.edu'
+						bio={`Apoorva is a Brooklyn-based neuro-divergent experimental researcher working on grassroots innovation, bridging the mismatches in people’s capabilities and the environment/product/platform they interact with. She has professional experience as a UX researcher and Accessibility SME, for clients like IBM, TSB, and MetLife. She has a B.Des in Human Centered Design(HCD) and an MPS in Interactive Telecommunications(NYU ITP) and, has gained badges and led workshops and trainings in Accessibility and Corporate Design Thinking Frameworks. ITP led her to ‘experimental research’, A research design practice that involves ‘making’ as rapid and iterative low-scale prototyping’ to collect, test, and synthesize information for actionable insights.\n\nShe is a research resident at NYU ITP for the Ability Project. Herein, she is working with ml5.js to research applications of AI x Art x A11y, HeartShare to improve adaption methodologies, Level the Curve where she designs 3D printable assistive gripping tools, and the Ability Project where she is evaluating the accessibility within design methodologies. `}
 					/>
 				</div>
 			</div>
