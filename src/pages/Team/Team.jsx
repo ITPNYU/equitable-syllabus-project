@@ -63,7 +63,7 @@ function Team() {
 						name='Blair Simmons'
 						role='Faculty Director'
 						email='blair.simmons@nyu.edu'
-						bio='♡'
+						bio={`Blair is a queer artist, curator, researcher, storyteller, and technician exploring themes of technology, labor, bodies, and pain. Blair’s pieces are both critical of and dependent on technology, mirroring the ways technology can be a solution to  pain, and the source of the pain itself. \n\nBlair is currently an Assistant Arts Professor and Co-Director of Undergraduate Studies at Interactive Media Arts and Interactive Telecommunications Program at New York University. Blair’s research often materializes as objects and performances which have been performed at the likes of Pioneer Works, La Mama’s CultureHub, Wordhack at Babycastles, theBlanc and the Edinburgh Fringe Festival. I have been mentioned in publications like PARtake, The Scotsman, USA Today, The Guardian, NYTimes, etc.`}
 					/>
 					<TeamCard
 						image={Liyan}
