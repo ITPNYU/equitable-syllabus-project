@@ -68,7 +68,7 @@ function Team() {
 					<TeamCard
 						image={Liyan}
 						name='Liyan Ibrahim'
-						role='☆ role ☆'
+						role='Research Manager'
 						email='li457@nyu.edu'
 						bio={`Liyan is a Palestinian multimedia artist based between New York City and Abu Dhabi. Her artistic practice delves into real-world reflections, examining how socio-political changes influence her politically and socially engaged art, particularly as a Palestinian in diaspora.\n\nHer work has been exhibited in multiple spaces across NYU (2021, 2023, 2024) and at the Mozilla Foundation Festival as part of the Decolonizing AI space (2022).\n\nBeyond her artistic practice, Liyan’s political activism is integral to her work. In the summer of 2024, she joined the Berkman Klein Center at Harvard Law School to help develop educational programs focused on tech ethics and AI. She is currently pursuing a master's degree in the Interactive Telecommunications Program at NYU's Tisch School of the Arts in Brooklyn, New York.`}
 					/>
@@ -76,28 +76,28 @@ function Team() {
 					<TeamCard
 						image={Melika}
 						name='Melika Panbehchi'
-						role='☆ role ☆'
+						role='Project Manager'
 						email='mp4563@nyu.edu'
 						bio={`Melika Panbehchi is a multimedia artist, (im)migrant rights organizer, storyteller and a curator of vibes from Tehran, Iran, who resides in the in between of many places, identities, and desires. After spending half of her life in San Francisco bay area and half in tehran, she currently lives in Bed-stuy, Brooklyn.\n\nHer work is both tangible and immersive, making use of soft materials, electronics, computational poetry and collective storytelling. with each piece, she seeks to emulate assertiveness in liminality and longs to speak of be-longing in the endless blackhole of nostalgia.\n\nShe is a Master's student at the Interactive Telecommunications Program (ITP) at Tisch, New York University where she’s learning to bridge her passion for taking an active role in the creation of a world she wants to live as an organizer, with designing immersive and tangible experiences that invite others to join in and take up space in their own lives.\n\nPrior to ITP, Melika served as the senior statewide organizer at california immigrant policy center where she focused on fighting detention, deportation and food insecurity through uplifting community members’ stories and advocacy. She has a bachelor's degree in sociology with a minor in multimedia journalism from UC Berkeley.`}
 					/>
 					<TeamCard
 						image={Audrey}
 						name='Audrey Oh'
-						role='☆ role ☆'
+						role='Research Specialist'
 						email='do772@nyu.edu'
 						bio={`Audrey Oh (Korean, b.1996) is a trans-media artist and activist whose work explores themes of tradition, ritual, and femininity, delving into the tensions between the physical and digital realms. By merging traditional techniques like print, photography, and sculpture with found digital archives, she channels the corporeal into digital space, creating moments where the body metaphorically “excretes” into the digital.\n\nShe is part of the Center for Ethnic Studies community at Columbia University, where she has studied subversive methodologies of teaching, learning, performance, and protest. Audrey has also built a career working with non-profit organizations such as CITYarts, OCA-NY, and Literacy Partners, all of which aim to uplift marginalized communities in NYC.`}
 					/>
 					<TeamCard
 						image={SophiaCollander}
 						name='Sophia Collander'
-						role='☆ role ☆'
+						role='Research Specialist'
 						email='sec8890@nyu.edu'
 						bio={`Sophia Collender is a chronically uncomfortable person interested in exploring how the world can be made more comfortable. She is dedicated to experimenting with and rethinking relationships between people and their ecosystems – and exploring how changes to that dynamic can make (and keep) the world a comfortable place for all. \n\nAs a first-year graduate student at NYU Tisch's ITP she is developing her knowledge of art, media, design, computation, and bioengineering in the pursuit of developing a truly cross-disciplinary understanding of the world. \n\nDrawing on her backgrounds in academic research and fine art appraisal, she is passionate about using projects that run the gamut from slime mold explorations to the sonification of weather patterns for EDM mixes to illustrate that all fields ultimately inform one another and come into contact.`}
 					/>
 					<TeamCard
 						image={Yafira}
 						name='Yafira Martinez'
-						role='Front End Web Developer'
+						role='Lead Web Developer'
 						email='ym3317@nyu.edu'
 						bio={`Yafira Martinez, known online as electrocute ✿, is a creative technologist and front-end developer based in New York City. With a background in computer science, she is currently pursuing graduate studies at NYU’s Interactive Telecommunications Program (ITP), where she blends technical expertise with artistic vision to explore creative coding, physical computing, and interactive design.\n\nA passionate tinkerer and designer, Yafira specializes in crafting user-centered, visually compelling digital experiences. Her approach is rooted in a deep understanding of human-computer interaction, making technology both empowering and accessible. Whether designing intuitive interfaces, experimenting with circuits, or creating interactive art, she seeks to push the boundaries of traditional design and engineering.\n\nDrawing inspiration from the Y2K era and nostalgic web aesthetics, Yafira infuses her projects with a unique blend of minimalist design, playful creativity, and innovative technology. She thrives in creative environments, constantly striving to bridge the gap between art and technology to create experiences that enrich everyday life.\n\nDriven by curiosity and a desire to make technology more engaging and poetic, she is committed to creating seamless, inspiring work that becomes a meaningful part of everyday life.`}
 					/>
@@ -111,14 +111,14 @@ function Team() {
 					<TeamCard
 						image={Neeti}
 						name='Neeti Sivakumar'
-						role='☆ role ☆'
+						role='Research Specialist'
 						email='ns5412@nyu.edu'
 						bio={`Neeti Sivakumar is a multidisciplinary designer and researcher based in Brooklyn, New York. She works at the intersection of sociology of space and technology. Her practice focuses on the _production of space_ and what it means for marginalized communities to occupy space visibly. She believes in a participatory approach to reflect and critique structures of inequality and access.\n\nWith a master’s in interactive media from NYU and a bachelor’s in architecture, she works with a variety of mediums including architecture drawings, crafted spaces, audio/video, and, emerging technology like AR/VR, generative AI, and motion capture. She has received grants from the Goethe-Institut Mumbai, ZKM, Karlsruhe, and BeFantastic Bangalore, and was a part of NYU’s HEAR US (Honoring, Elevating, and Recapitalizing Underrepresented Stories) cohort in 2024.\n\nCurrently, she is a research resident at NYU and works at Berkman Klein Center at Harvard Law School.`}
 					/>
 					<TeamCard
 						image={Apoorva}
 						name='Apoorva Avadhana'
-						role='☆ role ☆'
+						role='Accessibility Research Specialist'
 						email='aa10234@nyu.edu'
 						bio={`Apoorva is a Brooklyn-based neuro-divergent experimental researcher working on grassroots innovation, bridging the mismatches in people’s capabilities and the environment/product/platform they interact with. She has professional experience as a UX researcher and Accessibility SME, for clients like IBM, TSB, and MetLife. She has a B.Des in Human Centered Design(HCD) and an MPS in Interactive Telecommunications(NYU ITP) and, has gained badges and led workshops and trainings in Accessibility and Corporate Design Thinking Frameworks. ITP led her to ‘experimental research’, A research design practice that involves ‘making’ as rapid and iterative low-scale prototyping’ to collect, test, and synthesize information for actionable insights.\n\nShe is a research resident at NYU ITP for the Ability Project. Herein, she is working with ml5.js to research applications of AI x Art x A11y, HeartShare to improve adaption methodologies, Level the Curve where she designs 3D printable assistive gripping tools, and the Ability Project where she is evaluating the accessibility within design methodologies. `}
 					/>
